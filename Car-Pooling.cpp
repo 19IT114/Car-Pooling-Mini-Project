@@ -13,6 +13,7 @@ public:
 
     void input()
     {
+        //Accepting details of customers
         cout<<"Enter the required details..."<<endl;
         cout<<"NAME : ";
         cin>>name;
@@ -37,6 +38,7 @@ public:
     }
     void display()
     {
+        
         cout<<"NAME : "<<name<<endl;
         cout<<"AGE : "<<age<<endl;
         cout<<"ORIGIN : "<<origin<<endl;
