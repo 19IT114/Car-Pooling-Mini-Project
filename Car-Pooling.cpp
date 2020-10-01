@@ -100,7 +100,7 @@ int main()
     int flag=0;
 
 
-    cout<<"::::<====WELCOME TO THE RIDE SHARE====>::::"<<endl;
+    cout<<":::<====WELCOME TO THE RIDE SHARE====>:::"<<endl;
     START:
         confirmchoice=0,flag=0;
     cout<<"Enter 1 to enter as a DRIVER"<<endl;
@@ -108,7 +108,7 @@ int main()
     cout<<"Enter 3 to EXIT the program"<<endl;
     cout<<"ENTER YOUR CHOICE : ";
     cin>>choice;
-    cout<<"*************************************************"<<endl;
+    cout<<"***********************************************"<<endl;
     cout<<endl;
 
     switch(choice)
