@@ -34,7 +34,7 @@ public:
         cout<<"PRICE (per Km) : ";
         cin>>price;
         cout<<endl;
-        cout<<"*************************************************"<<endl;
+        cout<<"************************************************"<<endl;
     }
     void display()
     {
@@ -46,7 +46,7 @@ public:
         cout<<"AVAILABLE SEATS : "<<nos<<endl;
         cout<<"PRICE (per Km) : "<<price<<endl;
         cout<<endl;
-        cout<<"*************************************************"<<endl;
+        cout<<"************************************************"<<endl;
     }
 };
 
