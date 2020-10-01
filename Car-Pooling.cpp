@@ -13,6 +13,7 @@ public:
 
     void input()
     {
+        //Accepting details of customers
         cout<<"Enter the required details..."<<endl;
         cout<<"NAME : ";
         cin>>name;
@@ -37,6 +38,7 @@ public:
     }
     void display()
     {
+        
         cout<<"NAME : "<<name<<endl;
         cout<<"AGE : "<<age<<endl;
         cout<<"ORIGIN : "<<origin<<endl;
@@ -204,18 +206,18 @@ int main()
         if(confirmchoice != 0)
         {
             D[confirmchoice - 1].nos = D[confirmchoice - 1].nos - P[p].nop;
-            cout<<"*************************************************"<<endl;
+            cout<<"************************************************"<<endl;
             cout<<"YOUR RIDE WITH "<<D[confirmchoice-1].name<<" HAS BEN CONFIRMED"<<endl;
             cout<<"THANK YOU FOR USING RIDESHARE.HAVE A SAFE JOURNEY"<<endl;
             cout<<"                 DO VISIT AGAIN                 "<<endl;
-            cout<<"*************************************************"<<endl;
+            cout<<"************************************************"<<endl;
         }
         else
         {
-            cout<<"*************************************************"<<endl;
+            cout<<"************************************************"<<endl;
             cout<<"         THANK YOU FOR USING RIDESHARE.          "<<endl;
             cout<<"                 DO VISIT AGAIN                 "<<endl;
-            cout<<"*************************************************"<<endl;
+            cout<<"************************************************"<<endl;
         }
 
     }
