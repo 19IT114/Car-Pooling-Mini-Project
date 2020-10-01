@@ -206,18 +206,18 @@ int main()
         if(confirmchoice != 0)
         {
             D[confirmchoice - 1].nos = D[confirmchoice - 1].nos - P[p].nop;
-            cout<<"*************************************************"<<endl;
+            cout<<"************************************************"<<endl;
             cout<<"YOUR RIDE WITH "<<D[confirmchoice-1].name<<" HAS BEN CONFIRMED"<<endl;
             cout<<"THANK YOU FOR USING RIDESHARE.HAVE A SAFE JOURNEY"<<endl;
             cout<<"                 DO VISIT AGAIN                 "<<endl;
-            cout<<"*************************************************"<<endl;
+            cout<<"************************************************"<<endl;
         }
         else
         {
-            cout<<"*************************************************"<<endl;
+            cout<<"************************************************"<<endl;
             cout<<"         THANK YOU FOR USING RIDESHARE.          "<<endl;
             cout<<"                 DO VISIT AGAIN                 "<<endl;
-            cout<<"*************************************************"<<endl;
+            cout<<"************************************************"<<endl;
         }
 
     }
